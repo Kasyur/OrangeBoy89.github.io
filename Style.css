@@ -1,4 +1,4 @@
-@media (screen) {
+
 .brd {
     border: 4px inset #414141; /* Параметры границы */
     background: #858585; /* Цвет фона */
@@ -30,40 +30,5 @@ font-family: Verdana;
 font-size 15pt;
 color: white;
 }
-}
 
 
-
-@media (handheld) {
-.brd {
-    border: 4px inset #ff4600; /* Параметры границы */
-    background: #ff0000; /* Цвет фона */
-    padding: 15px; /* Поля вокруг текста */
-}
-
-header{
- width: 100%;
- background: #434343;
- height: 200px;
- background: url(source/TELBanner.png)
-}
-
-body{
-font-family: Verdana;
-font-size 15pt;
-color: Black;
-background-color: #FF0000;
-
-}
-h1{
-font-family: Verdana;
-font-size 15pt;
-color: Black;
-}
-
-h2{
-font-family: Verdana;
-font-size 15pt;
-color: Black;
-}
-}
