@@ -1,4 +1,10 @@
-
+.line {
+    border-left: 1px solid #FFFFFF; /* Линия слева от текста */
+    border-right: 1px solid #FFFFFF; /* Линия справа от текста */
+    padding: 0 20px;  /* Расстояние между линией и текстом */
+    margin: 0 5%; /* Отступы от края до линии */
+   }
+   
 .brd {
     border: 4px inset #414141; /* Параметры границы */
     background: #858585; /* Цвет фона */
@@ -16,9 +22,8 @@ body{
 font-family: Verdana;
 font-size 15pt;
 color: white;
-background-color: 858585;
-
 }
+
 h1{
 font-family: Verdana;
 font-size 15pt;
@@ -31,4 +36,35 @@ font-size 15pt;
 color: white;
 }
 
+ul.css-menu-3 {
+list-style: none;
+border-bottom: 5px solid #6A6A6A;
+border-top: 1px solid #6A6A6A;
+padding: 11px;
+background: #6A6A6A
+}
 
+ul.css-menu-3 li {
+display: inline
+}
+
+ul.css-menu-3 li a {
+color: #fefefe;
+text-decoration: none;
+background: #939393;
+border: 1px solid #3D3D3D;
+border-bottom: 1px solid #3D3D3D;
+margin: 5%;
+padding: 10px 15px 10px 15px
+}
+
+ul.css-menu-3 li a:hover {border-left: 1px solid #114477; border-right: 1px solid #114477}
+
+ul.css-menu-3 li a.selected {
+color: #fefefe;
+background: #6A6A6A;
+border: 3px #6A6A6A solid;
+border-bottom: 3px solid #6A6A6A;
+border-left: 3px solid #6A6A6A;
+padding: 10px 15px 10px 15px
+}
